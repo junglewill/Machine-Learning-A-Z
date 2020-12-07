@@ -4,4 +4,4 @@ Exercises from taking Udemy online course - Machine Learning A-Z: Hands-on Pytho
 The content includes:
 * Regression in Python and R
 * KNN in Python and R
-*
+* Decision Tree & Random Forest in Python and R
