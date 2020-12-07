@@ -5,3 +5,4 @@ The content includes:
 * Regression in Python and R
 * KNN in Python and R
 * Decision Tree & Random Forest in Python and R
+* K means in Python and R
