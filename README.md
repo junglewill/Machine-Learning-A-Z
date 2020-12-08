@@ -6,3 +6,4 @@ The content includes:
 * KNN in Python and R
 * Decision Tree & Random Forest in Python and R
 * K means in Python and R
+* Tensorflow in Python and R
