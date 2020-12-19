@@ -21,7 +21,6 @@ test_set = subset(dataset, split == FALSE)
 # test_set = scale(test_set)
 
 # Fitting Multiple Linear Regression to the Training set
-# The formula is to tell R how to recognize y(dependent variable) & X(independent variables) if single linear regression use Profit ~ years of experience(specified)
 regressor = lm(formula = Profit ~ .,
                data = training_set)
 
