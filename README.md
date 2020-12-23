@@ -11,8 +11,13 @@ The repository includes a Python_notes.ipynb to list the important take-aways fr
 * Random Forest Regression
 
 ### Classification in R
-* KNN in Python and R
-* Decision Tree & Random Forest in Python and R
+* Logistic Regression 
+* K-Nearest Neighbors
+* Support Vector Machine
+* Decision Tree Classifier
+* Random Forest Classifier
+
+
 * K means in Python and R
 * Principle Component Analysis(PCA) in Python and R
 * Tensorflow in Python and R
