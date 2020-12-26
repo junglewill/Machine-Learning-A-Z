@@ -3,12 +3,12 @@ Exercises from taking Udemy online course - Machine Learning A-Z: Hands-on Pytho
 
 The repository includes a Python_notes.ipynb to list the important take-aways from this course, and all the R data modeling and visualization templates that can be directly used:
 ### Regression in R
-* Simple Linear Regression (train_test_split using sample.split function with caTools library, linear regression using lm function)
-* Polynomial Linear Regression ()
-* Multi-Linear Regression
-* Support Vector Regression
-* Decision Tree Regression
-* Random Forest Regression
+* Simple Linear Regression (train_test_split using sample.split function from <b>caTools</b> library, linear regression using lm function)
+* Polynomial Linear Regression (polynomial linear regression using lm function)
+* Multi-Linear Regression (multi-linear regression using lm function)
+* Support Vector Regression (svr using svm function with type = 'eps-regression' from <b>e1071</b> library)
+* Decision Tree Regression (decision tree using rpart function from <b>rpart</b> library) 
+* Random Forest Regression (random forest using randomForest function from <b>randomForest</b> library)
 
 ### Classification in R
 * Logistic Regression (confusion matrix using table function, logistic regression using glm function)
