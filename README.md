@@ -12,7 +12,7 @@ The repository includes a Python_notes.ipynb to list the important take-aways fr
 
 ### Classification in R
 * Logistic Regression (confusion matrix using table function, logistic regression using glm function)
-* K-Nearest Neighbors
+* K-Nearest Neighbors (knn using knn function from <b>class</b> library)
 * Support Vector Machine
 * Decision Tree Classifier
 * Random Forest Classifier
