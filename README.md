@@ -14,7 +14,9 @@ The repository includes a Python_notes.ipynb to list the important take-aways fr
 * Logistic Regression (confusion matrix using table function, logistic regression using glm function)
 * K-Nearest Neighbors (knn using knn function from <b>class</b> library)
 * Support Vector Machine (svm using svm function with type = 'C-classification', kernal = 'linear' from <b>e1071</b> library)
-* Decision Tree Classifier (svm using svm function with type = 'C-classification', kernal = 'radial' from <b>e1071</b> library)
+* kernel SVM (svm using svm function with type = 'C-classification', kernal = 'radial' from <b>e1071</b> library)
+* Naive Bayes (naive bayes using naiveBayes function from <b>e1071</b> library) remember: the y for naiveBayes must be factor encoded to be recognized by the function
+* Decision Tree Classifier
 * Random Forest Classifier
 * K means in Python and R
 * Principle Component Analysis(PCA) in Python and R
