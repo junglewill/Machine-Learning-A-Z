@@ -8,7 +8,7 @@ The repository includes a Python_notes.ipynb to list the important take-aways fr
 * Multi-Linear Regression (multi-linear regression using lm function)
 * Support Vector Regression (svr using svm function with type = 'eps-regression' from <b>e1071</b> library)
 * Decision Tree Regression (decision tree using rpart function from <b>rpart</b> library) 
-* Random Forest Regression (random forest using randomForest function from <b>randomForest</b> library)
+* Random Forest Regression (random forest using randomForest function with ntree = (num of trees) from <b>randomForest</b> library)
 
 ### Classification in R
 * Logistic Regression (confusion matrix using table function, logistic regression using glm function)
@@ -16,8 +16,8 @@ The repository includes a Python_notes.ipynb to list the important take-aways fr
 * Support Vector Machine (svm using svm function with type = 'C-classification', kernal = 'linear' from <b>e1071</b> library)
 * kernel SVM (svm using svm function with type = 'C-classification', kernal = 'radial' from <b>e1071</b> library)
 * Naive Bayes (naive bayes using naiveBayes function from <b>e1071</b> library) remember: the y for naiveBayes must be factor encoded to be recognized by the function
-* Decision Tree Classifier (decision tree using rpart function from <b>rpart</b> library) to print the tree out, use <b>plot(classifier)</b> and <b>text(classifier)</b> to see visualization
-* Random Forest Classifier
+* Decision Tree Classifier (decision tree using rpart function with type = 'class' from <b>rpart</b> library) to print the tree out, use <b>plot(classifier)</b> and <b>text(classifier)</b> to see visualization
+* Random Forest Classifier (random forest using randomForest function with ntree = (num of trees) from <b>randomForest</b> library)
 * K means in Python and R
 * Principle Component Analysis(PCA) in Python and R
 * Tensorflow in Python and R
