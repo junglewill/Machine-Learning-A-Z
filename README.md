@@ -18,6 +18,8 @@ The repository includes a Python_notes.ipynb to list the important take-aways fr
 * Naive Bayes (naive bayes using naiveBayes function from <b>e1071</b> library) remember: the y for naiveBayes must be factor encoded to be recognized by the function
 * Decision Tree Classifier (decision tree using rpart function with type = 'class' from <b>rpart</b> library) to print the tree out, use <b>plot(classifier)</b> and <b>text(classifier)</b> to see visualization
 * Random Forest Classifier (random forest using randomForest function with ntree = (num of trees) from <b>randomForest</b> library)
-* K means in Python and R
+
+### Clustering in R
+* K means (kmeans function with X, 5, iter.max=300, nstart=10) (to visualize the clustering, use clusplot function from <b>cluster</b> library)
 * Principle Component Analysis(PCA) in Python and R
 * Tensorflow in Python and R
