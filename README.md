@@ -21,5 +21,6 @@ The repository includes a Python_notes.ipynb to list the important take-aways fr
 
 ### Clustering in R
 * K means (kmeans function with X, 5, iter.max=300, nstart=10) (to visualize the clustering, use clusplot function from <b>cluster</b> library)
+* Hierarchical Clustering (dendrogram using hclust(dist(X, method='euclidean'), method='ward.D')) (use cuttree(hc, 5) to get the prediction) (to visualize the clustering, use clusplot function from <b>cluster</b> library)
 * Principle Component Analysis(PCA) in Python and R
 * Tensorflow in Python and R
