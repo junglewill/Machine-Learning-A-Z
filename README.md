@@ -22,5 +22,10 @@ The repository includes a Python_notes.ipynb to list the important take-aways fr
 ### Clustering in R
 * K means (kmeans function with X, 5, iter.max=300, nstart=10) (to visualize the clustering, use clusplot function from <b>cluster</b> library)
 * Hierarchical Clustering (dendrogram using hclust(dist(X, method='euclidean'), method='ward.D')) (use cuttree(hc, 5) to get the prediction) (to visualize the clustering, use clusplot function from <b>cluster</b> library)
+
+### Association Rule Learning in Python & R
+in R, use read.transactions instead of read.csv to create the sparse matrix
+* Apriori (apriori function with parameter = list(support = 0.004, confidence = 0.2) from <b>arules</b> library)
+
 * Principle Component Analysis(PCA) in Python and R
 * Tensorflow in Python and R
