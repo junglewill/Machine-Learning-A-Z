@@ -28,6 +28,10 @@ in R, use read.transactions instead of read.csv to create the sparse matrix
 * Apriori (apriori function with parameter = list(support = 0.004, confidence = 0.2) from <b>arules</b> library) and use inspect(sort(rules, by = 'lift')[1:10]) to look for the sorted top 10 rules
 * Eclat (eclat function with parameter = list(support = 0.004, minlen = 2) from <b>arules</b> library)
 
-## Reinforcement
+## Reinforcement Learning in Python & R
+* Upper Confidence Bound
+* Thompson Sampling (using rbeta function with n = 1,
+                        shape1 = numbers_of_rewards_1[i] + 1,
+                        shape2 = numbers_of_rewards_0[i] + 1 to approxiamte the beta distribution random sampling in R) n=1 because we only want to take 1 random draw
 * Principle Component Analysis(PCA) in Python and R
 * Tensorflow in Python and R
