@@ -36,6 +36,8 @@ in R, use read.transactions instead of read.csv to create the sparse matrix
                      
 ## Natural Language Processing in Python & R
 * remember to set stringsAsFactors = False when reading the tsv file: as a string will be viewed as plain text rather than factor(numerical value)
-* VCorpus(VectorSource()), tm_map, DocumentTermMatrix and removeSparseTerms function from <b>tm</b> library and the stopwords() to get all English stop words from <b>Snowball</b> library 
-* Principle Component Analysis(PCA) in Python and R
+* VCorpus(VectorSource()), tm_map, DocumentTermMatrix and removeSparseTerms function from <b>tm</b> library and the stopwords() to get all English stop words from <b>Snowball</b> library
+
+## Dimensionality in P
+* Principle Component Analysis(PCA) (pca using preProcess function with x = training_set[-14], method = 'pca', pcaComp = 2 from <b>caret</b> and <b>e1071</b> library) remember to change the index order after you perform PCA, as those PC will be added to the bottom of the dataset
 * Tensorflow in Python and R
