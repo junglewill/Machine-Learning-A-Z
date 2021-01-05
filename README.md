@@ -36,6 +36,13 @@ in R, use read.transactions instead of read.csv to create the sparse matrix
                      
 ## Natural Language Processing in Python & R
 * remember to set stringsAsFactors = False when reading the tsv file: as a string will be viewed as plain text rather than factor(numerical value)
-* VCorpus(VectorSource()), tm_map, DocumentTermMatrix and removeSparseTerms function from <b>tm</b> library and the stopwords() to get all English stop words from <b>Snowball</b> library 
-* Principle Component Analysis(PCA) in Python and R
-* Tensorflow in Python and R
+* VCorpus(VectorSource()), tm_map, DocumentTermMatrix and removeSparseTerms function from <b>tm</b> library and the stopwords() to get all English stop words from <b>Snowball</b> library
+
+## Dimensionality Reduction in R
+* Principle Component Analysis(PCA) (pca using preProcess function with x = training_set[-14], method = 'pca', pcaComp = 2 from <b>caret</b> and <b>e1071</b> library) remember to change the index order after you perform PCA, as those PC will be added to the bottom of the dataset
+* Linear Discrimination Analysis(LDA) (lda using lda function from <b>MASS</b> library) remember: the lda model will automatically generate (# of classes) - 1 numbers of independent variables as it is a supervised model to see the variance between classes. Also remember: for lda, you need to change the transformed training_set to a data frame
+* Kernal PCA (kernal pca using kpca function with kernel = 'rbfdot', features = 2 from <b>kernlab</b> library) remember: for kpca, you need to change the transformed training_set to a data frame and add the dependent variable to your data frame
+
+## Model Selection in R
+* k-Fold Cross Validate (using createFolds function with k=10 and lapply() function to train training fold, predict on testing fold, and then calculate the accuracy separately in each fold from <b>caret</b> library)
+* Grid Search (using train function with method = 'svmRadial' and the rest supporting methods that you can find online from <b>caret</b> library)
