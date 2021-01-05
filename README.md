@@ -46,3 +46,6 @@ in R, use read.transactions instead of read.csv to create the sparse matrix
 ## Model Selection in R
 * k-Fold Cross Validate (using createFolds function with k=10 and lapply() function to train training fold, predict on testing fold, and then calculate the accuracy separately in each fold from <b>caret</b> library)
 * Grid Search (using train function with method = 'svmRadial' and the rest supporting methods that you can find online from <b>caret</b> library)
+
+## XGBoost in R
+* XGBoost (using xgboost function with data = as.matrix(training_set[-11]), label = training_set$Exited as a vector, and nrounds = 10 to limit the maximum iteration from <b>xgboost</b> library) remember: in R, xgboost function is a regression model and that you need to set criteria to get the 0,1 classification
