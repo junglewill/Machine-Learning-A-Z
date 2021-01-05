@@ -43,3 +43,5 @@ in R, use read.transactions instead of read.csv to create the sparse matrix
 * Linear Discrimination Analysis(LDA) (lda using lda function from <b>MASS</b> library) remember: the lda model will automatically generate (# of classes) - 1 numbers of independent variables as it is a supervised model to see the variance between classes. Also remember: for lda, you need to change the transformed training_set to a data frame
 * Kernal PCA (kernal pca using kpca function with kernel = 'rbfdot', features = 2 from <b>kernlab</b> library) remember: for kpca, you need to change the transformed training_set to a data frame and add the dependent variable to your data frame
 
+## Model Selection in R
+* k-Fold Cross Validate (using createFolds function with k=10 and lapply() function to train training fold, predict on testing fold, and then calculate the accuracy separately in each fold from <b>caret</b> library)
