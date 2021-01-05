@@ -40,4 +40,5 @@ in R, use read.transactions instead of read.csv to create the sparse matrix
 
 ## Dimensionality in P
 * Principle Component Analysis(PCA) (pca using preProcess function with x = training_set[-14], method = 'pca', pcaComp = 2 from <b>caret</b> and <b>e1071</b> library) remember to change the index order after you perform PCA, as those PC will be added to the bottom of the dataset
+* Linear Discrimination Analysis(LDA) (lda using lda function from <b>MASS</b> library) remember: the lda model will automatically generate (# of classes) - 1 numbers of independent variables as it is a supervised model to see the variance between classes. Also remember: for lda, you need to change the transformed training_set to a data frame
 * Tensorflow in Python and R
