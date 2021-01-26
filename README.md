@@ -1,5 +1,5 @@
 # Machine-Learning-A-Z
-Exercises from taking Udemy online course - Machine Learning A-Z: Hands-on Python & R in Data Science excluding the deep learning part. The notes cover what I learnt from the online courses about machine learning models' deployment on Python.
+Exercises from taking Udemy online course - Machine Learning A-Z: Hands-on Python & R in Data Science excluding the deep learning part. The Python_notes cover what I learnt from the online courses about machine learning models' deployment on Python.
 
 The repository includes a Python_notes.ipynb to list the important take-aways from this course, and all the R data modeling and visualization templates that can be directly used:
 ## Regression in R
