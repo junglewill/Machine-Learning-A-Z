@@ -15,6 +15,18 @@ test_set = subset(dataset, split == FALSE)
 training_set[-14] = scale(training_set[-14])
 test_set[-14] = scale(test_set[-14])
 
+# prcomp() function and principal() function, giving the rotate='none' can both also be used
+# the difference in loadings for the functions is only in scaling, 
+# which means that in prcomp(), the summation of loadings is set to 1, while principal() is not. 
+# However, If the "rotate" parameter of principal() function is set to TRUE, then the loadings cannot be explained compared to prcomp()'s.
+# In the prcomp() function, the summation of loadings equals 1; 
+# besides, the PC1 column's vector times the PC2 column's vector equals 0, 
+# which is the definition that PC1 should be perpendicular to PC2. 
+# In this way, I can actually interpret the matrix vertically. 
+# Also, I can explain the matrix horizontally that q1 is the linear combination of RC1, RC2. 
+# Proving that I can interpret from both directions before rotation
+# However, after the rotation we cannot interpret the matrix vertically anymore.
+
 # Applying PCA
 # install.packages('caret')
 library(caret)
